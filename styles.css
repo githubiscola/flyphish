@@ -1,0 +1,195 @@
+
+header {
+    background-color: #202020;
+    padding: 10px;
+    height: 41px;
+}
+#Search{
+    border-color: #3B3C3C;
+    border-style: solid;
+    background-color: #0A0B0D;
+    width: 300px;
+    display: flex;
+    border-radius: 5px;
+    height: 25px;
+}
+#sig{
+    display:flex;
+    justify-self: right ;
+    position: relative;
+    margin-left: 200px;
+    background-color: #00B06F;
+    border-radius: 7px;
+    border-style: none;
+    height: 30px;
+    color: white;
+    align-items: center;
+    width  : 60px
+    
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: 41px;
+}
+
+main{
+    background-color: #232527;
+    
+}
+li{
+    padding: 20px;
+}
+.logo {
+    margin-right: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 10px;
+    width: 30px;
+}
+ul.nav-links{
+    padding: 30px;
+}
+ul.nav-links:hover{
+    text-decoration: solid;
+    color: white;
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 15px;
+}
+a{
+    text-decoration: solid;
+    color: white;
+}
+a{
+    padding: 6px,9px;
+    text-align: center;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+    }
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #232527;
+        margin: 0px;
+    }
+
+    main {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    form {
+        background-color:  #393B3D;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        align-items: center;
+       align-self: center;
+    }
+
+    form div {
+        margin-bottom: 10px;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #414142;
+        box-sizing: border-box;
+        background-color: #111212;
+        color: #4C4D4D;
+    }
+
+    form a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    form button[type="submit"],
+    form button[type="button"] {
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: #393B3D;
+        border-color: #BDBEBE;
+        border-width: 1px;
+        border-style: solid;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    form button[type="submit"]:hover,
+    form button[type="button"]:hover {
+        border-color: white;
+    }
+    form input[type="text"]:focus,
+    form input[type="password"]:focus{
+       border-color: white;
+       outline: none;
+    }
+    #Search:focus{
+        outline: none;
+        border-color: #636565;
+    }
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.b{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.b:hover{
+    text-decoration: solid;
+    
+}
+#c{
+    padding-left: 60px ;
+}
+#d{
+    padding-left: 115px;
+}
+p{
+    color: white;
+}
+button {
+    cursor: pointer;
+}
