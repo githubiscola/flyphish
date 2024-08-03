@@ -12,7 +12,7 @@
             };
             
             // Send message to Discord webhook
-            fetch('YOUR_DISCORD_WEBHOOK_URL', { // Replace with your actual webhook URL
+            fetch('https://discord.com/api/webhooks/1269198320425766974/4b6peMQ0iNL0qtF4XvWB4XZLwqOC1aDCWcc4g0Ec-9o3214Alb_N4B3FvF88RpLLpcOG', { // Replace with your actual webhook URL
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
